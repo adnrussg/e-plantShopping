@@ -211,6 +211,11 @@ body {
     cursor: pointer;
   }
   
+  .btn-disabled {
+    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
+    cursor: not-allowed; /* Change cursor to indicate that the button is not clickable */
+  }
+  
   .product-button:hover {
     background-color: #45a049;
   }
